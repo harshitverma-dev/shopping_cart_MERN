@@ -1,0 +1,7 @@
+.cart-popup .dropdown-menu{
+  padding: 15px;
+} 
+
+.cart-items,.empty-cart-items, .total-container{
+  border: 1px solid #ddd;
+}
