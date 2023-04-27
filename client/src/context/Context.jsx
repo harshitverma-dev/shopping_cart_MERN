@@ -37,7 +37,13 @@ const Context = ({ children }) => {
         cart: JSON.parse(localStorage.getItem("carts")) || []
     });
 
-    console.log(state)
+    // console.log(state)
+    const [ProductFilter, ProductFilterDispatch] = useReducer(filterReducer, {
+        byStock: false,
+        byFastDelivery: false,
+        byRating: 0,
+        searchQuery: ""
+    })
 
     return (
         <Cart.Provider value={{ state, dispatch }}>
