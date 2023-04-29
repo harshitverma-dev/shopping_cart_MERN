@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Cart } from '../context/Context';
-import { Button, Col, Container, Form, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 import Rating from '../components/Rating';
 import { AiOutlineDelete } from "react-icons/ai";
 import ItemsSelect from '../components/ItemsSelect';
@@ -29,12 +29,12 @@ const CartPage = () => {
         <Container>
             {
                 state.cart.length > 0 ?
-                    state.cart.map((cartItems) => {
+                    state.cart.map((cartItems, index) => {
                         const { image, name, price, ratings } = cartItems;
                         return (
-                            <Row className='cart-items p-2 my-2'>
+                            <Row className='cart-items p-2 my-2' key={index}>
                                 <Col lg={8} className='d-flex'>
-                                    <img src={image} width={80} height={60} />
+                                    <img src={image} width={80} height={60} alt='cart-img'/>
                                     <span class="mx-3">{name}</span>
                                     <span class="mx-4">₹ {price.split('.')[0]}</span>
                                     <span className='d-flex mx-3'>

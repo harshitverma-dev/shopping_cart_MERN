@@ -1,7 +1,14 @@
-.cart-popup .dropdown-menu{
+.cart-popup .dropdown-menu {
   padding: 15px;
-} 
+}
 
-.cart-items,.empty-cart-items, .total-container{
+.cart-items,
+.empty-cart-items,
+.total-container {
   border: 1px solid #ddd;
+}
+
+.product-img-container>img {
+  width: 100%;
+  height: 220px;
 }
