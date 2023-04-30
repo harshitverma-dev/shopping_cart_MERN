@@ -2,7 +2,7 @@
 
 A full-fledged E-commerce shopping cart Application using ReactJS, JavaScript, react-loading-skeleton for frontend and for backend NodeJS, ExpressJS, MongoDB, Mongoose, Postman. It is hosted live on the internet.
 
-Live URL: https://shopping-cart-mern-application.netlify.app 
+Live URL: https://shopping-cart-mern-application.netlify.app                                                                                                         
 backend Products Api link: https://shopping-cart-backend-0hok.onrender.com/api/products
 <img width="960" alt="apis" src="https://user-images.githubusercontent.com/115063708/235340424-934ddf72-c1a5-4ecb-b98e-f02b4f6df23c.PNG">
 
