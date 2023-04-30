@@ -7,8 +7,7 @@ backend Products Api link: https://shopping-cart-backend-0hok.onrender.com/api/p
 <img width="960" alt="apis" src="https://user-images.githubusercontent.com/115063708/235340424-934ddf72-c1a5-4ecb-b98e-f02b4f6df23c.PNG">
 
 
-About this application :
-It provides the E-commerce shopping cart functionality like 
+About this application :                                                                                                                                            It provides the E-commerce shopping cart functionality like 
 1. adding product in cart for checkout.
 2. removing product from cart.
 
@@ -22,11 +21,7 @@ product api tested with thunder client >>
 2. created multiple components for fontend using ReactJs and added skeleton for products.
 <img width="949" alt="product-skeleton" src="https://user-images.githubusercontent.com/115063708/235340505-2ec65fd2-9ec4-43cd-a141-0e5a2654dad8.PNG">
 
-3. added functionalities such as 
-~ used local storage to save the cart data.
-~ Implemented add to cart functionality
-~ Implemented remove from cart functionality.
-~ used Context API (createContext, useContext) and useReducer to manage the state of the components.
+3. added functionalities such as                                                                                                                                     ~ used local storage to save the cart data.                                                                                                                           ~ Implemented add to cart functionality                                                                                                                              ~ Implemented remove from cart functionality.                                                                                                                        ~ used Context API (createContext, useContext) and useReducer to manage the state of the components.
 
 Product page >>
 <img width="952" alt="home-page" src="https://user-images.githubusercontent.com/115063708/235341598-256a67c3-0a66-4e27-b36c-c5c48f9592d1.PNG">
